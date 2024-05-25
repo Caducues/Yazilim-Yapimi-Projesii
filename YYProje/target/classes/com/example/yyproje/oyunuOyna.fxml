@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="764.0" prefWidth="564.0" style="-fx-background-color: #538fa0;" stylesheets="@../../../input.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yyproje.OyunController">
+   <children>
+      <ImageView fx:id="image_WordImg" fitHeight="340.0" fitWidth="380.0" layoutX="83.0" layoutY="50.0">
+         <image>
+            <Image url="@../../../Img/1052.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="label_Soru" alignment="CENTER" layoutX="125.0" layoutY="411.0" prefHeight="45.0" prefWidth="314.0" text="SEA" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfield_Tahmin" alignment="CENTER" layoutX="157.0" layoutY="524.0" prefHeight="59.0" prefWidth="250.0">
+         <stylesheets>
+            <URL value="@../../../input.css" />
+            <URL value="@../../../input.css" />
+         </stylesheets></TextField>
+      <Button fx:id="button_Cevap" layoutX="205.0" layoutY="623.0" mnemonicParsing="false" onAction="#cevap" prefHeight="49.0" prefWidth="156.0" style="-fx-background-color: #fec939;" text="Cevapla" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button_Geri" layoutX="12.0" layoutY="12.0" mnemonicParsing="false" onAction="#geri" prefHeight="38.0" prefWidth="71.0" style="-fx-background-color: #fec939;" stylesheets="@../../../button.css" text="Geri" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="label_Cumle" alignment="CENTER" layoutX="125.0" layoutY="478.0" prefHeight="20.0" prefWidth="314.0" text="                                     " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

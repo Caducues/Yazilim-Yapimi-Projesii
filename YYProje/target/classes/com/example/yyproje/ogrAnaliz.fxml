@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="764.0" prefWidth="564.0" style="-fx-background-color: #538fa0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yyproje.AnalizController">
+   <children>
+      <Label layoutX="112.0" layoutY="36.0" text="Başarı Tablosu" textFill="#fec939">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_Dogru" layoutX="258.0" layoutY="135.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="270.0" prefHeight="45.0" prefWidth="142.0" text="DOGRU SAYISI" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_Yanlış" layoutX="256.0" layoutY="305.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="437.0" prefHeight="45.0" prefWidth="142.0" text="YANLIS SAYISI" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_SBDogru" layoutX="258.0" layoutY="482.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="614.0" prefHeight="45.0" prefWidth="212.0" text="SORU BASINA DOGRU" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_Geri2" layoutX="464.0" layoutY="704.0" mnemonicParsing="false" onAction="#Geri" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: #fec939;" text="Geri" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
